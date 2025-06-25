@@ -1,1 +1,8 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=dhruvika
+ENV N8N_BASIC_AUTH_PASSWORD=Queen1234
+ENV WEBHOOK_URL=https://latest-newz-blogger.onrender.com
+ENV GENERIC_TIMEZONE=Asia/Kolkata
+
